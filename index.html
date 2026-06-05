@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walid ABDOUS | Portfolio BTS SIO option SLAM</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">DILOOW<span class="highlight">.DEV</span></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#profil">Mon Profil</a></li>
+                    <li><a href="#projets">Mes Projets</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="mailto:dlw.app.diloowsgames@gmail.com" class="btn-primary">Me Contacter</a>
+        </div>
+    </header>
+
+    <section id="accueil" class="hero-section">
+        <div class="hero-content">
+            <span class="badge">Candidat BTS SIO option SLAM — Alternance</span>
+            <h1>Walid ABDOUS <br><span class="gradient-text">Développeur & Concepteur</span></h1>
+            <p>Autodidacte passionné doté d'un solide bagage logique (Prépa MP2I). Je conçois des scripts d'automatisation sur mesure, des applications natives connectées aux IA et des architectures logicielles rigoureuses.</p>
+            <div class="hero-buttons">
+                <a href="#projets" class="btn-secondary">Explorer mes réalisations</a>
+                <a href="https://github.com/dlwdiloow" target="_blank" class="btn-outline">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="profil" class="container">
+        <h2 class="section-title">Mon Parcours & Ma Démarche</h2>
+        <div class="profile-grid">
+            <div class="card main-profile">
+                <h3>De la théorie à la pratique</h3>
+                <p>Après un parcours théorique exigeant en <strong>Classe Préparatoire MP2I</strong> (Mathématiques, Physique, Ingénierie et Informatique) et en BUT Informatique, j'ai développé une grande rigueur algorithmique et logique.</p>
+                <p>Ce parcours ayant été ralenti par des impératifs de santé, aujourd'hui <strong>entièrement stabilisés et pris en compte</strong>, j'ai choisi de me réorienter vers la voie de l'excellence concrète : <strong>l'alternance en BTS SIO (Option SLAM)</strong>. Je souhaite aujourd'hui mettre cette persévérance et mon autonomie technique au service d'une entreprise locale.</p>
+                <p class="ambition">🎯 Objectif à long terme : Spécialisation en Cybersécurité et DevSecOps.</p>
+            </div>
+            <div class="card side-profile">
+                <h3>Sens de la transmission</h3>
+                <p>Parallèlement à mes projets, je dispense des <strong>cours particuliers en mathématiques et en informatique</strong>.</p>
+                <p>Cette expérience développe au quotidien ma pédagogie, mon sens de la communication et ma capacité à vulgariser des concepts complexes — des qualités humaines indispensables au travail en équipe.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="container">
+        <h2 class="section-title">Réalisations & Preuves de Compétences</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <div class="project-media">
+                    <video src="videos/game_letsplay.mp4" autoplay loop muted playsinline></video>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Échos de l'Abîme</h3>
+                        <span class="tech-tag">JS / Canvas</span>
+                    </div>
+                    <p class="project-type">Jeu Vidéo Dark Fantasy • Vanilla JS & HTML5 Canvas</p>
+                    <p>Conception intégrale d'un jeu de rôle <strong>sans moteur de jeu préexistant</strong>. Implémentation de la boucle de rendu (requestAnimationFrame), gestion des collisions et structuration rigoureuse en Programmation Orientée Objet (Classes ES6) pour les entités et l'IA.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-media">
+                    <img src="videos/chatbot_ai.mp4" alt="">
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Desktop AI Assistant</h3>
+                        <span class="tech-tag">PyQt6 / API</span>
+                    </div>
+                    <p class="project-type">Application Bureau Asynchrone</p>
+                    <p>Développement d'un assistant logiciel doté d'une interface graphique native fluide en mode sombre. Implémentation de requêtes asynchrones vers l'API d'IA générative de Google avec affichage progressif et traitement de requêtes logico-mathématiques.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-media">
+                    <img src="videos/capture.png" alt="">
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Java Game - Puissance 4</h3>
+                        <span class="tech-tag">Java</span>
+                    </div>
+                    <p class="project-type">Jeu via l'invite de commande - Sans interface graphique</p>
+                    <p>Script utilitaire complet doté d'une interface utilisateur permettant la sélection de répertoires et le traitement simultané de centaines d'images. Exploitation du filtre d'échantillonnage LANCZOS pour conserver la fidélité visuelle.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-media">
+                    <img src="videos/transform_image_5_diff.mp4">
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Image Toolkit Library</h3>
+                        <span class="tech-tag">OpenCV / Pillow</span>
+                    </div>
+                    <p class="project-type">Traitement de Données & Vision</p>
+                    <p>Création d'un module de traitement d'images regroupant 5 transformations géométriques et colorimétriques avancées (inversion de matrice, flous directionnels). Idéal pour la préparation de datasets IA.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="competences" class="container">
+        <h2 class="section-title">Compétences SLAM & Objectifs</h2>
+        <div class="skills-grid">
+            <div class="card skill-card">
+                <h4>Langages</h4>
+                <ul>
+                    <li>Python (Scripts / IA / Logique)</li>
+                    <li>Vanilla JavaScript (Canvas / Web)</li>
+                    <li>HTML5 / CSS3</li>
+                </ul>
+            </div>
+            <div class="card skill-card">
+                <h4>Frameworks & Outils</h4>
+                <ul>
+                    <li>PyQt6 & Tkinter</li>
+                    <li>Pillow & OpenCV</li>
+                    <li>Git / GitHub & Linux (Bash)</li>
+                </ul>
+            </div>
+            <div class="card skill-card">
+                <h4>Ambitions</h4>
+                <ul>
+                    <li>Spécialisation Cybersécurité</li>
+                    <li>Pratiques DevSecOps</li>
+                    <li>CI/CD & Automatisation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p class="footer-title">Prêt à collaborer en alternance ?</p>
+        <p>Disponible pour intégrer votre équipe technique (Rythme BTS SIO).</p>
+        <div class="social-links">
+            <a href="mailto:dlw.app.diloowsgames@gmail.com">Email</a>
+            <a href="https://github.com/dlwdiloow" target="_blank">GitHub</a>
+        </div>
+        <p class="credits">© 2026 Walid ABDOUS. Conçu classiquement en HTML/CSS.</p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
