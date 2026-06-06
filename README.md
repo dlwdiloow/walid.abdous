@@ -20,10 +20,11 @@ Je conçois des applications logicielles, des scripts d'automatisation et des ar
 
 Vous pouvez retrouver le code source de mes principaux projets sur mes autres dépôts :
 
-1. **[Échos de l'Abîme](Lien_vers_le_depot)** : Création d'un moteur de jeu 2D et d'un RPG Dark Fantasy de zéro (Vanilla JS, Canvas, OOP).
-2. **[Desktop AI Assistant](Lien_vers_le_depot)** : Application bureau native en mode sombre connectée à l'API Gemini (Python, PyQt6, Asynchrone).
-3. **[Batch Image Resizer](Lien_vers_le_depot)** : Outil d'automatisation industriel avec interface graphique (Python, Tkinter, PIL).
-4. **[Image Toolkit Library](Lien_vers_le_depot)** : Bibliothèque d'algorithmes de vision et de traitement géométrique d'images (Python, OpenCV).
+1. **[Échos de l'Abîme](https://github.com/dlwdiloow/ECHOS-DE-L-ABIME)** : Création d'un moteur de jeu 2D et d'un RPG Dark Fantasy de zéro (Vanilla JS, Canvas, OOP).
+2. **[Desktop AI Assistant](https://github.com/dlwdiloow/chatbot_ai)** : Application bureau native en mode sombre connectée à l'API Gemini (Python, PyQt6, Asynchrone).
+3. **[Puissance 4](https://github.com/dlwdiloow/puissance4)** : 
+Jeu classique du puissance 4 à joueur avec l'invite de commande à 2 joueurs. (Java).
+4. **[Image Toolkit Library](https://github.com/dlwdiloow/Image-Toolkit-library)** : Bibliothèque d'algorithmes de vision et de traitement géométrique d'images (Python, OpenCV).
 
 ## 📫 Me Contacter
 
