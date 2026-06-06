@@ -2,7 +2,7 @@
 
 Bienvenue sur le dépôt de mon portfolio ! 
 
-👉 **[Visiter mon portfolio en ligne](https://dlwdiloow.github.io/walid.abdous/)** *(Remplace par ton vrai lien)*
+👉 **[Visiter mon portfolio en ligne](https://dlwdiloow.github.io/walid.abdous/)** 
 
 ## 🎯 À propos de moi
 
