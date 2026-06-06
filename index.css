@@ -240,7 +240,14 @@ body {
     flex-direction: column;
     transition: transform 0.3s, border-color 0.3s;
 }
+.project-card>a{
+    text-decoration: none;
+    color:#C200B6;
+}
 
+.project-card>a:hover{
+    color:#F2F2F2;
+}
 .project-card:hover {
     transform: translateY(-5px);
     border-color: var(--primary);
